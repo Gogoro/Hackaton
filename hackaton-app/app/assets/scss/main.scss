@@ -1,0 +1,136 @@
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+
+body {
+    background-color: whitesmoke;
+    color: #222;
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
+
+    font-family: "proxima-nova";
+}
+
+header {
+    display: block;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 80px;
+
+    .logo {
+        float: left;
+        font-size: 1.4em;
+        font-weight: 600;
+        line-height: 80px;
+        vertical-align: middle;
+
+        a {
+            color: #222;
+            text-decoration: none;
+        }
+    }
+
+    nav {
+        float: right;
+        line-height: 80px;
+        vertical-align: middle;
+
+        ul {
+            float: left;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+
+            li {
+                float: left;
+                margin: 0 0 0 40px;
+                padding : 0;
+
+                a {
+                    float: left;
+                    font-size: 0.925em;
+                    color: #777;
+                    text-decoration: none;
+
+                    -webkit-transition: all .3s;
+                    -moz-transition: all .3s;
+                    -o-transition: all .3s;
+                    transition: all .3s;
+                    
+                    &:hover {
+                        color: #222;
+                    }
+
+                    i {
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.hero {
+    position: relative;
+    padding-top: 15%;
+    background-color: #d3d3d3;
+
+    background-image: url('../img/home/hero-hack-1.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    h1.title {
+        margin: 40px 0 20px 0;
+        text-align: center;
+    }
+
+    p.introduction {
+        max-width: 700px;
+        margin: 0 auto 50px auto;
+
+        text-align: center;
+        font-size: 1.125em;
+        line-height: 1.42em;
+        color: #888;
+    }
+
+    .row {
+        display: block;
+        width: 101%;
+        margin-right: -.5%;
+    }
+}
+
+.playlist {
+    float: left;
+    width: 24%;
+    margin: 0 1% 15px 0;
+}
+
+
+
+
+footer {
+    padding: 50px 0 50px 0;
+    border-top: 2px solid #000;
+    background-color: #222;
+}

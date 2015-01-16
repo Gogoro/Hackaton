@@ -1,0 +1,23 @@
+{
+  "name": "hackaton-app",
+  "version": "0.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "node-sass": "~2.0.0-beta",
+    "gulp-sass": "~1.2.4",
+    "react": "~0.13.0-alpha.1"
+  },
+  "devDependencies": {
+    "gulp-sass": "^1.2.4",
+    "gulp": "^3.8.10",
+    "tiny-lr": "^0.1.4",
+    "gulp-livereload": "^3.0.2",
+    "gulp-sourcemaps": "^1.2.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

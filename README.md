@@ -38,10 +38,10 @@ If you want to help build a solid, good looking, sexy piece of frontend. Then yo
 
 **HTML**, **SCSS**, **JavaScript**, **assets**, and more are located here. 
 
->More information about how to get started with the frontend can be found inside the *README.md*; in the hackaton-app folder.
+>More information about how to get started with the frontend can be found [Here](./hackaton-app/)
 
 
 ##Hackaton-server
 If you are more interested in doing backend server stuff, then you should be working in this folder. Here I am planing on building a solid **Node CRUD API server**. With **KOA** as wrapper. 
 
->More information about how to get started with the server can be found inside the *README.md*; in the hackaton-server folder.
+>More information about how to get started with the server can be found [Here](./hackaton-server/)

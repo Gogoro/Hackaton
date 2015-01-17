@@ -10,7 +10,7 @@ The first step of the process is to have the required services running on your m
 * [Node](http://nodejs.org/)
 * [Apache](http://www.apache.org/) or [Nginx](http://nginx.org/)
 
-###Mac and Linux
+####Initialization [MAC osX and Linux]:
 1. Point you localhost / vhost to <code>(repo-location)/hackaton-app/app</code>
 2. Use your terminal and cd into this folder: <code>(repo-location)/hackaton-app/</code>
 3. run <code>$ npm install</code> to install the required node modules
@@ -21,7 +21,7 @@ The first step of the process is to have the required services running on your m
 >
 > Ask [Gogoro](https://github.com/Gogoro) if you have problems initializing the site on your machine.
 
-###Windows
+####Initialization [Windows]:
 1. Point you localhost / vhost to <code>(repo-location)/hackaton-app/app</code>
 2. run the <code>windows-install.bat</code> to install the required node modules
 3. run the <code>windows-run.bat</code> to run gulp for compiling sass, livereload, ++

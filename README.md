@@ -3,6 +3,8 @@ Welcome to the hackaton repo
 
 Welcome! I've written a small introduction in hope that you will understand what I'm trying to do with this. As well as a guide on how you could get started collaborating on this project. If you are only interested in the guide, read the hackaton-app / hackaton-server part of this readme.
 
+> The documentation will improve over time.
+
 ##What is the site suposed to do?
 The hackaton site is suposed to be a tool of us moving forward. Where we can share information, create suggestions for projects that we could make happen, and a place where we could easily organize a hackaton.
 
